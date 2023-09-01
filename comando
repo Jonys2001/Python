@@ -1,0 +1,1 @@
+curl -s jsonplaceholder.typicode.com/users | grep -o '"phone": "[^"]*"' | cut -d'"' -f4
